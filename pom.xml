@@ -10,9 +10,8 @@
  
   <!--定义参数变量-->
   <properties>
-  	<java.version>1.7</java.version>
+  	<java.version>1.8</java.version>
     <encoding>UTF-8</encoding>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     
     <spring.version>3.1.1.RELEASE</spring.version>
     <spring-data-commons.version>1.5.0.RELEASE</spring-data-commons.version>
@@ -348,25 +347,25 @@
   <!--构建编译-->
   <build>
     <finalName>${project.artifactId}</finalName>
-    <!-- <plugins>
-    	war
+    <plugins>
+    	<!-- war -->
     	<plugin>
     		<groupId>org.apache.maven.plugins</groupId>
     		<artifactId>maven-war-plugin</artifactId>
     		<version>2.4</version>
     	</plugin>
-    	编译插件
+    	<!-- 编译插件 -->
     	<plugin>
     		<groupId>org.apache.maven.plugins</groupId>
     		<artifactId>maven-compiler-plugin</artifactId>
-    		<version>3.1</version>
+    		<!-- <version>3.1</version> -->
     		<configuration>
     			<source>${java.version}</source>
     			<target>${java.version}</target>
     			<encoding>${encoding}</encoding>
     		</configuration>
     	</plugin>
-    	源码插件
+    	<!-- 源码插件 -->
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-resources-plugin</artifactId>
@@ -375,7 +374,7 @@
 				<encoding>${encoding}</encoding>
 			</configuration>
 		</plugin>
-		javadoc插件
+		<!-- javadoc插件 -->
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-javadoc-plugin</artifactId>
@@ -384,6 +383,6 @@
 				<encoding>${encoding}</encoding>
 			</configuration>
 		</plugin>
-    </plugins> -->
+    </plugins>
   </build>
 </project>

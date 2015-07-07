@@ -1,0 +1,462 @@
+body {
+    background-color: #F7F7F7;
+}
+
+.sns {
+    width: 1000px;
+    margin: 0 auto;
+    color: #555;
+    background-color: #F7F7F7;
+}
+
+.sns .main-container {
+    width: 950px;
+    padding: 20px 25px 50px;
+}
+
+.sns .main-container .sidebar {
+    float: left;
+    width: 260px;
+}
+
+.sns .main-container .main {
+    float: left;
+    width: 670px;
+    margin-right: 20px;
+}
+
+.sns .main-container section {
+    width: 100%;
+    background: url(../img/bg_line_section.png) repeat-x bottom left;
+}
+
+.sns .main-container .main section {
+    position: relative;
+    padding-top: 20px;
+}
+
+.sns .main-container .sidebar section {
+    margin-bottom: 20px;
+}
+
+.sns .main-container .sidebar .buddy-container {
+    height: 210px;
+    overflow: hidden;
+}
+
+.sns .main-container ul.buddy-list {
+    width: 100%;
+}
+
+.sns .main-container .sidebar ul.buddy-list {
+    height: 5000px;
+}
+
+.sns .main-container .main ul.buddy-list li {
+    float: left;
+}
+
+.sns .main-container .main ul.buddy-list li {
+    height: 60px;
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.sns .main-container .main ul.buddy-list li .buddy-head {
+    display: block;
+    float: left;
+    height: 60px;
+    width: 60px;
+    background-color: #CCC;
+}
+
+.sns .main-container .main ul.buddy-list li .buddy-info {
+    display: block;
+    float: left;
+    margin: 10px 0;
+    width: 70px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.sns .main-container .main ul.buddy-list li .buddy-info a,.sns .main-container ul.buddy-list li .buddy-info .action-type {
+    display: block;
+    height: 20px;
+    cursor: pointer;
+}
+
+.sns .main-container .main ul.buddy-list li .buddy-info a {
+    width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sns .main-container .sidebar ul.buddy-list li {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.sns .main-container .sidebar ul.buddy-list li .buddy-head {
+    display: block;
+    float: left;
+    height: 60px;
+    width: 60px;
+    background-color: #CCC;
+}
+
+.sns .main-container .sidebar ul.buddy-list li .buddy-info {
+    display: block;
+    float: left;
+    width: 140px;
+    height: 60px;
+    padding-left: 10px;
+}
+
+.sns .main-container .sidebar ul.buddy-list li .buddy-info div {
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sns .main-container .sidebar ul.buddy-list li .buddy-info a,.sns .main-container ul.buddy-list li .buddy-info .action-type {
+    display: inline;
+}
+
+.sns .main-container .sidebar ul.buddy-list li .buddy-info .intersection {
+    color: #AAA;
+    cursor: default;
+}
+
+.sns .main-container ul.buddy-list li .buddy-info .ico-type-add,.sns .main-container ul.buddy-list li .buddy-info .ico-type-chat,.sns .main-container ul.buddy-list li .buddy-info .ico-type-msg {
+    display: block;
+    float: left;
+    margin-right: 2px;
+    font-size: 0;
+}
+
+.sns .main-container ul.buddy-list li .buddy-info .ico-type-add {
+    width: 8px;
+    height: 7px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.sns .main-container ul.buddy-list li .buddy-info .ico-type-chat {
+    width: 10px;
+    height: 9px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+.sns .main-container ul.buddy-list li .buddy-info .ico-type-msg {
+    width: 11px;
+    height: 10px;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+
+.sns .main-container section .slide-up,.sns .main-container section ul.buddy-list li .buddy-info .ico-type-add,.sns .main-container section ul.buddy-list li .buddy-info .ico-type-chat,.sns .main-container section ul.buddy-list li .buddy-info .ico-type-msg,.sns .main-container section .course-nopreview {
+    background: url(../img/sprite_ico.png) no-repeat;
+}
+
+.sns .main-container section .slide-up {
+    background-position: right -30px;
+}
+
+.sns .main-container section ul.buddy-list li .buddy-info .ico-type-add {
+    background-position: 0 0;
+}
+
+.sns .main-container section ul.buddy-list li .buddy-info .ico-type-chat {
+    background-position: 0 -10px;
+}
+
+.sns .main-container section ul.buddy-list li .buddy-info .ico-type-msg {
+    background-position: 0 -20px;
+}
+
+.sns .main-container section .course-nopreview {
+    background-position: 0 -50px;
+}
+
+.sns .main nav {
+    height: 25px;
+    _height: 30px;
+    width: 670px;
+    margin-bottom: 10px;
+}
+
+.sns .main nav ul {
+    width: 630px;
+    padding: 0 20px;
+}
+
+.sns .main nav ul.text {
+    height: 15px;
+    _height: 20px;
+    line-height: 20px;
+    _line-height: 20px;
+    font-size: 14px;
+}
+
+.sns .main nav ul.bg {
+    height: 5px;
+    line-height: 5px;
+    margin-top: 5px;
+    font-size: 0;
+    background: url(../img/sprite_bg_nav.png) repeat-x 0 0;
+}
+
+.sns .main nav li {
+    float: left;
+    width: 70px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.sns .main nav ul.text li a {
+    display: block;
+    width: 70px;
+    height: 100%;
+    color: #555;
+    text-align: center;
+}
+
+.sns .main nav ul.text li a:hover,.sns .main nav ul.text li.selected {
+    font-weight: 700;
+}
+
+.sns .main nav ul.bg li.selected {
+    background: url(../img/sprite_bg_nav.png) repeat-x 0 -5px;
+}
+
+.sns .main .data-loading,.sns .main .data-nomore {
+    margin-top: 20px;
+    text-align: center;
+    color: #AAA;
+}
+
+.sns .main .empty-dynamic {
+    margin-top: 20px;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 700;
+    background-color: #EEE;
+}
+
+.sns .main section .user-head {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.sns .main section .user-head img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #CCC;
+}
+
+.sns .main section .dynamic {
+    float: left;
+    width: 600px;
+}
+
+.sns .main section .dynamic .user-action {
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.sns .main section .dynamic .user-action a {
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.sns .main section .dynamic .content {
+    padding: 10px;
+    background-color: #FFF;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.sns .main section.course .dynamic .content {
+    width: 560px;
+}
+
+.sns .main section.groupbuy .dynamic .content,.sns .main section.status .dynamic .content,.sns .main section.diary .dynamic .content {
+    width: 420px;
+}
+
+.sns .main section.buddy .dynamic .content {
+    width: 420px;
+    padding: 0;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.sns .main .gray-text {
+    color: #AAA;
+}
+
+.sns .main section.course .content .course-title {
+    width: 560px;
+    white-space: wrap;
+    word-wrap: break-word;
+}
+
+.sns .main section.course .content .course-title a {
+    color: #555;
+    font-weight: 700;
+}
+
+.sns .main section.course .content .course-title a:hover {
+    color: #09F;
+}
+
+.sns .main section.course .content .course-desc {
+    margin: 6px 0 8px;
+}
+
+.sns .main section.course .content .course-triviality {
+    line-height: 1em;
+    height: 1em;
+    color: #AAA;
+    margin-bottom: 10px;
+}
+
+.sns .main section.course .content .course-triviality span {
+    display: inline-block;
+    line-height: 15px;
+    margin-right: 30px;
+}
+
+.sns .main section.course .content .course-triviality .slide-up {
+    display: none;
+    padding-right: 25px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.sns .main section.course .content .course-preview .course-img {
+    float: left;
+    margin-right: 75px;
+    position: relative;
+    display: block;
+    width: 105px;
+    height: 60px;
+    border-radius: 3px;
+}
+
+.sns .main section.course .content .course-preview .course-img img {
+    display: block;
+    width: 105px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #CCC;
+}
+
+.sns .main section.course .content .course-preview .course-nopreview {
+    display: none;
+    float: left;
+    height: 22px;
+    line-height: 20px;
+    margin-top: 18px;
+    padding-left: 30px;
+}
+
+.sns .main section.course .content .course-preview .play-btn {
+    position: absolute;
+    display: block;
+    width: 28px;
+    height: 28px;
+    top: 50%;
+    left: 50%;
+    margin-left: -14px;
+    margin-top: -13px;
+    cursor: pointer;
+    background: url(../img/play_btn.png) no-repeat;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=image,src="../img/play_btn.png");
+}
+
+.sns .main section.course .content .course-video {
+    display: none;
+    width: 560px;
+    height: 310px;
+}
+
+.sns .main section.course .content .course-loading {
+    background: url(../img/video_loading.gif) no-repeat;
+}
+
+.sns .main section.groupbuy .content .groupbuy-photo {
+    display: block;
+    float: left;
+    width: 225px;
+    height: 158px;
+    margin-right: 10px;
+    background-color: #CCC;
+}
+
+.sns .main section.groupbuy .content .groupbuy-intro {
+    float: left;
+    width: 185px;
+    word-wrap: break-word;
+}
+
+.sns .main section.groupbuy .content .groupbuy-intro .course-publisher {
+    color: #F33;
+    font-size: 14px;
+}
+
+.sns .main section.groupbuy .content .groupbuy-intro .orginal-price {
+    text-decoration: line-through;
+}
+
+.sns .main section.groupbuy .content .groupbuy-intro .seperator {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sns .main section.groupbuy .content .groupbuy-intro .left-times {
+    color: #7B4;
+}
+
+.sns .main section.groupbuy .content .groupbuy-intro .buy {
+    margin-top: 5px;
+}
+
+.sns .main section.groupbuy .content .groupbuy-intro .buy .cur-price,.sns .main section.groupbuy .content .groupbuy-intro .buy a {
+    float: left;
+    display: block;
+}
+
+.sns .main section.groupbuy .content .groupbuy-intro .cur-price {
+    line-height: 30px;
+    margin-right: 20px;
+    color: #F60;
+}
+
+.sns .main section.groupbuy .content .groupbuy-intro .cur-price .num {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.sns .main section.status .content {
+    word-wrap: break-word;
+}
+
+.sns .main section .pub-date {
+    height: 20px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.sns .main section.buddy .pub-date {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 0;
+}

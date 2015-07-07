@@ -1,0 +1,74 @@
+body {text-align:center;font-family:宋体; margin:0; padding:0; background:url(bg1.gif) repeat 0 0;font-size:12px; color:#333;}
+div,form,img,ul,ol,li,dl,dt,dd,BUTTON,em,i{margin:0;padding:0;border:0;font-style:normal}
+h1,h2,h3,h4,h5,h6 {margin:0; padding:0; font-size:12px; font-weight:normal;}
+table,td,tr,th{font-size:12px;}li{list-style-type:none;}table{ margin:0 auto;}img{vertical-align:top;}
+.gads{width:1000px;height:auto; clear:both;}
+.gads img{ border:#ccc solid 1px; width:998px;}
+.gads1{float:left;display:inline;width:755px;height:auto;}
+.clear{ clear:both}
+.blk10{width:100%;float:left;display:inline;height:10px;line-height:10px;font-size:10px;clear:both;}
+.amore{float:right;padding-right:5px;font-size:12px;font-family:"";font-weight:normal}
+.Hidebox{display:none;}
+.hidden{display:none;}
+.Showbox{display:block;}
+.nob{border-bottom:none!important}
+.bold{font-weight:bold}
+.fl{float:left}
+.fr{float:right}
+.tc{text-align:center!important}
+#f12{font:normal 12px/1.0 Arial, Helvetica, sans-serif;color:#333}
+
+/* 链接颜色 */
+a{color:#444;text-decoration:none;-webkit-transition: color .3s linear;transition: color .3s linear;}
+a:link{color:#333;text-decoration:none;}
+a:visited{color:#333;text-decoration:none;}
+a:hover{color:#c00;text-decoration:underline;}
+a:active{color:#c00;}
+/* 颜色属性 [定义规则，小写c加颜色名称] */
+.cRed,a.cRed:link,a.cRed:visited{ color:#f60!important; }
+.cRed1,a.cRed1:link,a.cRed1:visited{ color:#d00!important; }
+.cBlue,a.cBlue:link,a.cBlue:visited{ color:#3366cc!important; }
+.cGreen,a.cGreen:link,a.cGreen:visited{ color:#4fa434!important; }
+.cWhite,a.White:link,a.White:visited{ color:#fff!important; }
+
+/*-------top--------*/
+.topx{float:left;width:100%;height:35px;border-bottom:1px solid #dedede;background:#fff;}
+.top{margin:0 auto;display:inline-block;width:1000px;height:35px;line-height:35px;text-align:center;}
+.top .t1,.top .t2,.top .t3{float:left;text-align:left}
+.top .t1 .ks1,.top .t1 .ks2{padding-left:18px;background:url(gd.png) -190px -29px no-repeat}
+.top .t1 .ks2{background:url(gd.png) -188px -56px no-repeat}
+.top .t1{color:#ccc}
+.top .t1 a{color:#666;text-decoration:none}
+.top .t1 a:hover{color:#d00}
+.top .t2{float:right;}
+.top .t2 a{color:#999}
+.top .t3{display:inline;float:right;margin-left:10px;color:#ccc;}
+
+/*-------header--------*/
+.header{margin:0 auto;width:1000px;content:""}
+.header .logo{float:left;padding:10px 0}
+.header .search-box{float:left;padding:30px 20px 30px 100px;}
+.header .search{position:relative;display:inline-block;width:260px;height:33px;line-height:33px;padding-left:80px;border:1px solid #dedede;text-align:left;background:#fff ;color:#ccc;}
+.header .search span{position:absolute;left:5px;top:5px;width:55px;height:22px;line-height:22px;padding-left:10px;border:1px solid #dedede;background:#f5f4f4 url(gd.png) -140px -73px no-repeat;clear:both}
+.header .search .ss{position:absolute;right:5px;top:2px;width:30px;height:30px;background:url(gd.png) right -90px no-repeat}
+.header .search .ss a{display:block;width:30px;height:30px;}
+.header .search1{border:none;width:99%;height:30px;line-height:30px;color:#ccc}
+.header .time{ float:right; padding:8px;}
+/*-------nav--------*/
+.nav{margin:0 auto;width:1000px;}
+.nav ul{float:left;width:998px;height:32px;border:1px solid #ccc;background:url(gd.png) 0 -130px repeat-x;zoom:1;content:""}
+.nav ul li{float:left;padding:0 20px;border-left:1px solid #ccc;border-right:1px solid #fff;font:bold 14px/2.3em simsun;content:""}
+.nav ul li.cur{border-left:none;background:#f47118;color:#fff;}
+.nav ul li.cur a,.nav ul li.cur a:link,.nav ul li.cur a:visited{color:#fff;}
+.nav ul li:first-child{border-left:none;}
+.nav ul li:last-child{border-right:none;}
+
+/*-------footer--------*/
+.footer{width:1000px;margin:0 auto;}
+.footer .nfoot{float:left;width:978px;padding:10px;border:1px solid #dedede;clear:both;line-height:25px;text-align:center;background:#fff;}
+.footer .link{border-top:2px solid #f50;text-align:left;}
+.footer .link a{padding:0 10px;}
+.footer .map ul{float:left;width:145px;border-right:1px solid #eee}
+.footer .map ul h3{width:80%;padding-left:19%;font:bold 14px/25px microsoft yahei;text-align:left}
+.footer .map ul li{width:80%;padding-left:19%;clear:both;text-align:left}
+.footer .wlogo{float:left;padding-left:10px;width:224px;text-align:left}

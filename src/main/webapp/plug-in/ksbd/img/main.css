@@ -1,0 +1,60 @@
+.content{margin:0 auto;position:relative;width:1000px;clear:both}
+.leftBar,.rightBar{float:left;}
+/*------×ó±ß----------*/
+.leftBar{width:233px;border:1px solid #dedede;border-radius:3px;box-shadow:#dedede 0 0 5px;background:#fff;}
+.leftBar .itemBox{position:relative;width:100%;clear:both;}
+.leftBar .itemBox h3{width:100%;height:35px;border-top:1px solid #dedede;border-bottom:1px solid #dedede;text-align:left;background:url(gd.png) 0 -163px repeat-x}
+.leftBar .itemBox h3 .h01{float:left;padding-left:5%;font:bold 14px/2.5em microsoft yahei;}
+.leftBar .itemBox h3 .arrow{float:right;width:15px;height:15px;margin-top:10px;margin-right:5px;display:inline;background:url(gd.png) -187px -215px no-repeat;}
+.leftBar .itemBox ul{display:inline-block;width:100%;padding:10px 0 7px 0;clear:both;}
+.leftBar .itemBox ul li{float:left;width:49%;line-height:23px;text-align:left;}
+.leftBar .itemBox ul li a{margin-left:15px;padding-left:15px;text-align:left;background:url(gd.png) -195px -244px no-repeat;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.leftBar .hl-item{position:absolute;left:233px;top:0px;width:550px;height:auto;border:1px solid #ccc;background:#fff;z-index:999}
+.leftBar .hl-item ul li{width:130px}
+
+/*------ÓÒ±ß----------*/
+.rightBar{position:relative;width:755px;margin-left:10px;display:inline;}
+.rightBar .rBox1{width:100%;contennt:"";}
+.rBox1 .foucs{float:left;position:relative;width:495px;}
+.rBox1 .foucs img{width:495px;height:200px;}
+.foucs .numBox{position:absolute;left:0;bottom:0px;width:100%;height:30px;background:#000;filter:alpha(opacity=20);-moz-opacity:0.2;-khtml-opacity:0.2;opacity:0.2;}
+.foucs ul.numk{margin:0 auto;position:absolute;left:140px;top:170px;width:43%;color:#fff;text-align:center;}
+.foucs ul.numk li{float:left;margin-left:6px;margin-top:8px;display:inline;}
+.foucs ul.numk li a.cur{background:#ff4e00}
+.foucs ul.numk li a{display:block;position:relative;width:45px;height:12px;background:#fff}
+
+.rBox1 .infoBox{float:left;width:248px;margin-left:10px;display:inline;border:1px solid #dedede;background:#fff;}
+.infoBox .reg1{width:100%;clear:both;text-align:center}
+.reg1 a.btn1,.reg1 a.btn2{display:block;margin:10px auto;width:170px;height:43px;clear:both;background:url(gd.png) 0 -260px no-repeat;font:bold 14px/3.0em microsoft yahei;}
+.reg1 a.btn1{color:#fff;}
+.reg1 a.btn2{background-position:0 -211px;}
+.infoBox .reg2{border-top:1px solid #dedede;background:#f5f5f5}
+.infoBox .reg2 h2{padding-left:20px;line-height:2.8em;text-align:left;font-weight:bold;color:#f50;}
+.infoBox .reg2 h3{position:relative;width:90%;padding-left:7%;line-height:2.0em;clear:both;text-align:left}
+.reg2 h3 .V{position:absolute;left:130px;top:2px;width:31px;height:17px;background:url(gd.png) 0 -63px no-repeat;}
+.reg2 h3 .zhe{position:absolute;left:170px;top:3px;width:15px;height:15px;background:url(gd.png) -43px -64px no-repeat;}
+
+.rBox2{position:relative;float:left;width:100%;}
+.rBox2 .rBtit{float:left;width:753px;height:36px;line-height:36px;border:1px solid #dedede;background:#fff;}
+.rBox2 .rBtit .h02{float:left;padding-left:20px;font:bold 20px/1.8em microsoft yahei}
+.rBox2 .rBtit .h02 span{color:#f50}
+.rBox2 .rBtit .rBbtn1,.rBox2 .rBtit .rBbtn2{position:relative;float:left;width:102px;margin-top:-2px;margin-bottom:-1px;margin-left:10px;display:inline;font:bold 14px/2.8em "";background:url(main.png) 0 0 no-repeat;text-align:center;}
+.rBox2 .rBtit .rBbtn1{margin-left:15px;}
+.rBox2 .rBtit .rBbtn2{background:none}
+
+.rBox2 .rbox{position:relative;display:inline-block;width:728px;border:1px solid #dedede;border-top:none;background:#fff;padding:10px 0}
+.rBox2 .rbox ul.jigou{float:left;padding:0 10px 5px 10px;clear:both;}
+ul.jigou li{float:left;display:inline;margin:15px 9px 0 9px;width:158px;height:85px;background:url(main.png) 0 -43px no-repeat;}
+ul.jigou li em{display:inline-block;width:100%;height:60px;padding:3px 0;clear:both}
+ul.jigou li img{margin:0 auto;display:block;}
+ul.jigou li i{width:100%;font:normal 12px/20px "simsun"}
+.rBox2 .leftsj,.rBox2 .rightsj{position:absolute;left:-10px;top:0px;width:10px;height:10px;background:url(main.png) -120px 0px no-repeat;}
+.rBox2 .rightsj{position:absolute;left:728px;top:0px;background:url(main.png) -108px 0px no-repeat;}
+
+.rBox2 .rbox table{width:95%;border-collapse:collapse;border:1px solid #dedede}
+.rbox table tr td{border:1px solid #dedede;line-height:30px;}
+a.st{display:inline-block;padding-left:20px;background:url(gd.png) -185px -275px no-repeat;font:bold 14px/25px microsoft yahei;color:#ff6b00}
+a.st:link,a.st:visited{color:#ff6b00}
+a.buy{display:inline-block;width:52px;height:24px;background:url(main.png) -141px 0 no-repeat}
+.price{font:bold 14px/20px "microsoft yahei";color:#e4393c}
+.yprice{text-decoration:line-through}

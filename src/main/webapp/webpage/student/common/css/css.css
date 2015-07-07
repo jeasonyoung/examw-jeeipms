@@ -1,0 +1,245 @@
+@import url("global.css");
+
+/*
+
+“结构” 样式
+
+2008.8.12 10:48 for Fangyu12@gmail.com
+
+Last modified 2008.10.06 15:30
+
+Copyright (c) 2008, dedecms All rights reserved.
+
+*/
+.mainBor{ border:1px solid #ebceb5; background-color:#fff7f1;overflow:hidden; zoom:1;min-height: 500px;}
+.box230{ width:230px; float:right}
+.east dl{ width:556px; float:left; background:#FFFFFF}
+.box230 dl{ width:220px; background:none}
+.buttonBlue li a{    display: inline-block;
+    height: 12px;
+    line-height: 12px;
+    padding: 4px 0;
+    text-align: center;
+    width: 106px; margin-bottom:5px;    background: url("../images/bg_btn_106Wx20H.png") no-repeat scroll 0 -40px transparent;}
+	.buttonBlue li a:hover{ background-position:0 0; color:#ffffff; text-decoration:none}
+/* 登入信息
+-------------------------------------------------------------------*/
+#siteNav {
+	background: transparent url(../images/site_bg.gif) repeat-x scroll 0px 0px;
+	height: 25px;
+}
+#siteNav #loginInfo {
+	float: left;
+	height: 16px;
+	margin-top: 5px;
+}
+#siteNav #quickMenu {
+	float: right;
+}
+#quickMenu li {
+	float:left;
+	height:25px;
+	line-height:24px;
+	margin-right:8px;
+	margin:0;
+	padding:0 8px;
+	background: transparent url(../images/site_bg.gif) repeat-x scroll -10px -75px;
+}
+
+#quickMenu .home {
+	background:transparent none repeat scroll 0 0;
+}
+#quickMenu .help a {
+	background: transparent url(../images/site_bg.gif) no-repeat scroll -10px -50px;
+	padding-left: 15px;
+}
+#quickMenu .help a {
+*background-position:-10px -50px;
+	_background-position:-10px -48px;
+}
+
+/* 顶部导航 add for Fangyu
+-------------------------------------------------------------------*/
+#header {
+	background:url(../images/bg_header.png) center top repeat-x;    height: 70px;
+    position: relative;
+    z-index: 3; border-bottom:1px solid #FFFFFF
+}
+#siteNav {
+	background: transparent url(../images/site_bg.gif) repeat-x scroll 0px 0px;
+	height: 25px;
+}
+#siteNav #loginInfo {
+	float: left;
+	height: 16px;
+	margin-top: 5px;
+}
+#siteNav #quickMenu {
+	float: right;
+}
+#quickMenu li {
+	float:left;
+	height:25px;
+	line-height:24px;
+	margin-right:8px;
+	margin:0;
+	padding:0 8px;
+	background: transparent url(../images/site_bg.gif) repeat-x scroll -10px -75px;
+}
+#header .navbg{ height:59px; background:url(../images/bg_head.jpg) center top no-repeat; width:960px; margin:0 auto}
+#topNav {
+    float: right;
+    height: 37px;
+    padding-top: 24px;
+    width: 754px;
+}
+#topNav #appIterm {
+	padding-left:65px;
+	height: 27px;
+}
+#topNav #appIterm li {
+  display: inline;
+    float: left;
+    font-size: 14px;
+    height: 23px;
+    line-height: 14px;
+    padding: 12px 14px 0;
+    position: relative;
+    z-index: 2;
+}
+#topNav #appIterm li a {
+color: #FFF7F1;
+    font-size: 14px;
+    line-height: 14px;
+}
+#topNav #appIterm li a:hover {
+	   color: #FF6600;
+    text-decoration: none;
+}
+#topNav #appIterm .thisApp {
+   color: #FFF7F1;
+    font-weight: bold;
+    text-decoration: none;
+}
+#topNav #appIterm .thisApp a {
+	   color: #FFF7F1;
+    font-weight: bold;
+    text-decoration: none;
+}
+#topNav #appIterm .thisApp i {
+    background: url("../images/icon_navArrow.png") no-repeat scroll center 0 transparent;
+    bottom: -17px;
+    height: 14px;
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    width: 17px;
+}
+
+.mainBox {background-color: #FDEFE1; padding: 4px;}
+/* 用户信息
+-------------------------------------------------------------------*/
+#userInfo .pic {
+	display:block;
+	font-size:25px;
+	overflow:hidden;
+	text-align:center;
+	margin:0 auto;
+}
+#userInfo .pic img {
+	vertical-align:middle;
+	max-width:100px;
+	max-height:100px;
+	width:expression(this.width>100?100:true);
+	height:expression(this.height>100?100:true);
+}
+#artInfo {
+	margin-top:10px;
+}
+#artInfo li {
+	font-size: 11px;
+	padding-left: 10px;
+	height: 12px;
+	line-height:12px;
+	margin-right: 10px;
+}
+#artInfo li a {
+	font-size:12px;
+	margin-right:5px;
+}
+/* 相册
+-------------------------------------------------------------------*/
+#album {
+	overflow:hidden;
+}
+#album li {
+	width:25%;
+	float:left;
+	margin-top: 20px;
+	position: relative;
+}
+#album dl {
+	height: 150px;
+	width: 150px;
+	margin: 0px auto;
+	background-image: url(../images/album_bg.png);
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+#album dl dt {
+	margin-bottom:5px;
+	padding-left: 10px;
+}
+#album dl dt a {
+	display: table-cell !important;
+	display:block;
+	font-size:66px;
+	width:130px;
+	height:95px;
+	overflow:hidden;
+	text-align:center;
+	vertical-align:middle;
+}
+#album dl dt img {
+	vertical-align:middle;
+	max-width:130px;
+	max-height:95px;
+	height:expression(this.height>95?95:true);
+	border-width: 0px;
+}
+
+/* 分页
+-------------------------------------------------------------------*/
+.pagelistbox span {
+	visibility:hidden;
+}
+.pagelistbox a {
+	margin:0 2px;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	padding: 1px 4px;
+}
+/* 页脚
+-------------------------------------------------------------------*/
+#footer {
+	text-align: center;
+}
+#footer ul {
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+	width: 580px;
+	overflow: hidden;
+}
+#footer li {
+	float: left;
+	width: 70px;
+	margin-left: -2px;
+	margin-right: 3px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #666666;
+	height:14px;
+	line-height:14px;
+}

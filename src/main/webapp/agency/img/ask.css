@@ -1,0 +1,178 @@
+.message-area {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #DDDDDD #DDDDDD;
+    border-image: none;
+    border-right: 1px solid #DDDDDD;
+    border-width: 0 1px 1px;
+    margin-top: 20px;
+}
+.message-area .show-area {
+    padding: 0 27px 0 15px;
+}
+.class-title {
+    background: url("img/sprite1pxbg_9a76db3a.png") repeat-x scroll 0 -84px rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #E7E7E7;
+    font-size: 14px;
+    font-weight: 700;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    width: 148px;
+}
+.class-item {
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+.class-item li {
+    border-bottom: 1px solid #E7E7E7;
+    padding: 10px 0;
+}
+.class-item li a {
+    color: #555555;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 145px;
+}
+.class-item li.current a {
+    color: #77BB44;
+}
+ .class-item li a:hover {
+    color: #77BB44;
+}
+ .class-item li.current a:hover {
+    color: #0099FF;
+}
+ .class-item li:last-child {
+    border-bottom: 0 none;
+}
+ .leave-message-wrap .pagination {
+    margin-top: 0;
+}
+ .replay-area .pagerNav {
+    margin: 25px 0 5px;
+}
+ .replay-area .pagerNav a {
+    margin-right: 10px;
+}
+ .replay-area .pagerNav a.currentPage {
+    color: #565555;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.leave-message-wrap .tab-list {
+    margin-bottom: 15px;
+	margin-top:20px;
+}
+
+.leave-message-wrap .tab-list li.first {
+    cursor: text;
+    text-align: left;
+    width: 175px;
+}
+.leave-message-wrap .tab-list li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("http://stat1.ablesky.cn/stata/images/organizationIndex/sprite1pxbg_9a76db3a.png") repeat scroll 0 -364px rgba(0, 0, 0, 0);
+    border-color: -moz-use-text-color -moz-use-text-color #DDDDDD #DDDDDD;
+    border-image: none;
+    border-style: none none solid solid;
+    border-width: 0 0 1px 1px;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 33px;
+    line-height: 18px;
+    padding: 0;
+    text-align: center;
+    width: 88px;
+}
+.leave-message-wrap .tab-list .current {
+    background: none repeat scroll 0 center rgba(0, 0, 0, 0);
+    border-bottom: 0 none;
+    border-left: 0 none;
+    border-top: 2px solid #77BB44;
+}
+.message-area .show-area {
+    padding: 0 27px 0 15px;
+}
+.message-total {
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 6px;
+	text-align:left;
+}
+.leave-message-wrap li {
+    border-bottom: 1px dotted #B4B4B4;
+    padding-bottom: 17px;
+    padding-top: 25px;
+    position: relative;
+}
+.leave-message-wrap .tab-list li.first span {
+    font-size: 14px;
+    margin-left: 20px;
+}
+.leave-message-wrap .tab-list li span {
+    color: #808080;
+    display: block;
+    font-size: 12px;
+    margin: 9px 0;
+}
+ul, ol {
+    list-style: none outside none;
+}
+.leave-message-wrap li .avatar {
+    float: left;
+    margin-right: 10px;
+}
+
+.leave-message-wrap li img {
+    height: 35px;
+    width: 35px;
+}
+.leave-message-wrap li .date {
+    color: #AAAAAA;
+    margin-left: 5px;
+}
+.leave-message-wrap li .say {
+    bottom: 3px;
+    color: #555555;
+    line-height: 20px;
+    overflow: hidden;
+    position: relative;
+    word-break: break-all;
+    word-wrap: break-word;
+    text-align:left;
+}
+
+.leave-message-wrap li .replay-btn {
+    color: #0099FF;
+    margin: 0 5px 0 10px;
+}
+.leave-message-wrap li .replay-area {
+    margin-left: 45px;
+}
+.leave-message-wrap li .question-area {
+	text-align:left;
+}
+.leave-message-wrap li .question-sourse {
+	text-align:left;
+    margin: 5px 0 0;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.leave-message-wrap li .item-replay {
+    margin-top: 22px;
+    position: relative;
+}
+.leave-message-wrap li .say p{display:inline;}

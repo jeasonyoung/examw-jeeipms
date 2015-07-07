@@ -1,0 +1,145 @@
+.sns .already-fix {
+    position: fixed;
+    top: 0;
+    margin-left: 0;
+    _float: none;
+    _position: absolute;
+}
+
+.sns .sidebar {
+    overflow: hidden;
+}
+
+.sns .sidebar section h3 {
+    height: 25px;
+    _height: 30px;
+    line-height: 1em;
+    _line-height: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sns .sidebar .latest-visit {
+    height: 128px;
+    _height: 133px;
+    display: none;
+}
+
+.sns .sidebar .latest-visit .list-container {
+    height: 66px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    width: 255px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.sns .sidebar .latest-visit .visit-list {
+    width: 2000px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.sns .sidebar .latest-visit .visit-list .list-info {
+    height: 66px;
+    float: left;
+    width: 47px;
+    margin-right: 20px;
+}
+
+.sns .sidebar .latest-visit .visit-list .list-info .person-image {
+    display: block;
+    height: 46px;
+}
+
+.sns .sidebar .latest-visit .visit-list .list-info .person-image img {
+    height: 46px;
+}
+
+.sns .sidebar .latest-visit .visit-list .list-info .person-name {
+    height: 14px;
+    line-height: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    width: 47px;
+}
+
+.sns .sidebar .latest-visit .visit-list .list-info .visit-time {
+    height: 12px;
+    line-height: 12px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.sns .sidebar .latest-visit .page-tools {
+    height: 14px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.sns .sidebar .latest-visit .page-tools .next-page,.sns .sidebar .latest-visit .page-tools .pre-page {
+    line-height: 14px;
+    display: block;
+    float: right;
+    color: #AAA;
+}
+
+.sns .sidebar .latest-visit .page-tools .pre-page {
+    margin-right: 17px;
+}
+
+.sns .sidebar .latest-visit .page-tools .next-page {
+    margin-right: 5px;
+}
+
+.sns .sidebar .latest-visit .page-tools .canclicked {
+    color: #09f;
+}
+
+.sns .sidebar .special-feature {
+    height: 130px;
+    _height: 135px;
+    font-weight: 400;
+}
+
+.sns .sidebar .special-feature .feature-list .feature-info .feature-name {
+    width: 55px;
+    padding-left: 35px;
+    float: left;
+    display: block;
+    margin-right: 10px;
+    color: #555;
+    background: url(../img/special-feature-logo.png) no-repeat -4px -3px transparent;
+}
+
+.sns .sidebar .special-feature .feature-list .feature-info a.feature-name:hover {
+    color: #09F;
+}
+
+.sns .sidebar .special-feature .feature-list .feature-info .college {
+    background-position: -4px -55px;
+}
+
+.sns .sidebar .special-feature .feature-list .feature-info .share {
+    background-position: -3px -105px;
+}
+
+.sns .sidebar .special-feature .feature-list .feature-info .group {
+    background-position: -3px -147px;
+}
+
+.sns .sidebar .special-feature .feature-list .feature-info .feature-description {
+    width: 153px;
+    float: left;
+    color: #aaa;
+    height: 22px;
+}
+
+.sns .sidebar .recommend-buddy {
+    height: 235px;
+    _height: 240px;
+}

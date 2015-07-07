@@ -1,0 +1,37 @@
+body{background:#f2f2f2!important;}
+.headerc{display:inline-block;width:100%;border-bottom:1px solid #ececec;background:#f4f4f4}
+/*°ïÖúµ¼º½*/
+.helpNav{float:right;padding-top:30px;}
+.helpNav ul li{float:left;padding:10px;font:normal 14px/2.0 microsoft yahei}
+
+.contentx{margin:0 auto;display:inline-block;width:1000px;clear:both;overflow:hidden}
+.helpLeft{float:left;width:200px;padding-bottom:2000px;margin-bottom:-2000px;background:#fff;}
+ul.leftNav{display:inline-block;*display:inline;*zoom:1;clear:both;}
+ul.leftNav li{display:inline-block;width:100%;height:35px;line-height:35px;border-bottom:1px dotted #dedede;text-align:left;}
+ul.leftNav li a{display:block;padding-left:20px;font:normal 14px/2.5 microsoft yahei}
+ul.leftNav li a.cur{border-left:3px solid #fe7501;}
+.phone{float:left;padding:3px 0 3px 35px;font:normal 16px/2.0 microsoft yahei;text-align:left;clear:both;background:url(gd.png) -170px -469px no-repeat;color:#999}
+
+.helpRight{float:right;width:790px;padding-bottom:2000px;margin-bottom:-2000px;background:#fff;overflow:hidden}
+.helpRight .cRtit{display:inline-block;width:100%;height:40px;border-bottom:1px dotted #dedede;font:normal 16px/3.0 microsoft yahei;text-align:left;color:#999}
+.cRtit em{position:relative;padding:3px 10px;border-bottom:2px solid #fe7501;}
+.rBox{float:left;width:50%;}
+.rBox .rBox1{padding:10px;border-left:1px dotted #dedede;margin-left:-1px;}
+.rBox .rBox1 ul{padding-left:20px;}
+.rBox .rBox1 ul h3{display:inline-block;width:100%;text-align:left;font:normal 18px/2.5 microsoft yahei;clear:both;color:#f50}
+.rBox .rBox1 ul li{display:inline-block;width:100%;line-height:25px;background:url(gd.png) -194px -440px no-repeat;text-align:left;clear:both}
+.rBox .rBox1 ul li a{padding-left:15px;color:#014ccc}
+
+.question{padding:20px;border-bottom:1px dotted #dedede}
+.question .ask{line-height:28px;text-align:left}
+.question .answer{line-height:28px;text-align:left}
+em.wen,em.da{display:inline-block;width:22px;height:22px;background:url(main.png) -311px -102px no-repeat;vertical-align:middle}
+em.da{background-position:-339px -103px}
+.question i,.answer i{padding-left:10px;}
+.w100{width:100%}
+.w100 h3{padding:10px 0;font:bold 16px/35px simsun}
+.w100 span{display:inline-block;padding:0 20px 20px 20px;line-height:25px;text-align:left}
+.rBox dl{width:100%;padding:5px 0px;}
+.rBox dl dt{float:left;text-align:left;padding-left:30px;padding-right:10px;font:normal 14px/2.0 microsoft yahei}
+.rBox dl dd{overflow:hidden;*zomm:1;text-align:left;padding-right:20px;}
+.rBox dl dd a{padding:0 10px;line-height:29px;color:#014ccc;}

@@ -1,0 +1,43 @@
+body { background-image:url(about:blank); /* for IE6 */ background-attachment:fixed;}
+.point2{width:452px;_width:457px;height:auto;float:left;z-index:9999;background:#e5e5e5;padding:5px 6px 5px 5px;_padding-right:0px;position:fixed;font-size:12px;top:50%;left:50%;margin-left:-230px;margin-top:-200px;_position:absolute; /* for IE6 */
+ _top: expression(documentElement.scrollTop + documentElement.clientHeight-220); /* for IE6 */ overflow:visible;}
+.point2 .pt3_box{border:1px solid #bbbbbb;width:450px;height:auto;float:left;background:#fff;}
+.point2 .pt_title{width:440px;height:30px;background:url(../img/point.png) repeat-x 0px 0px;font-size:14px;line-height:30px;padding-left:10px;color:#444;font-weight:bold;float:left;}
+.point2 .pt_title span{float:left;}
+.point2 .pt_title .close{width:17px;height:17px;float:right;margin-top:5px;margin-right:3px;background:url(../img/point.png) no-repeat -130px -74px;text-indent:-9999px;font-size:0px;display:inline;}
+.point2 .pt_title .close:hover{background:url(../img/point.png) no-repeat -130px -37px;width:17px;height:17px;float:right;text-indent:-9999px;font-size:0px;display:inline;}
+.point2 .pt_txt{width:410px;height:auto;float:left;padding:10px 20px 20px;}
+.point2 .pt_txt ul{width:100%;height:auto;float:left;margin:0px;padding:0px;}
+.point2 .pt_txt ul li{width:100%;height:auto;float:left;list-style-type:none;line-height:20px;border-bottom:1px dotted #999;padding-bottom:15px;margin-top:10px;}
+.point2 .pt_txt ul li .sp_txt{float:left;padding-top:20px;color:#666;padding-left:5px;width:83%;}
+.point2 .pt_txt .tel{background:url(../img/point.png) no-repeat 0px -351px;width:57px;height:67px;float:left;}
+.point2 .pt_txt .e-mail{background:url(../img/point.png) no-repeat -149px -433px;width:57px;height:67px;float:left;}
+.point2 .pt_txt .check_btn{width:97px;height:26px;float:right;background:url(../img/point.png) no-repeat 0px -430px;color:#1E50A2;line-height:24px;text-align:center;text-decoration:none;margin-top:5px;}
+.point2 .pt_txt .fm_right{width:89%;height:auto;float:left;margin-top:10px;padding-left:45px;}
+.point2 .pt_txt .r_btn{width:73px;height:29px;background:url(../img/point.png) no-repeat 0px -108px;border:none;cursor:pointer;text-align:center;line-height:29px;}
+.point2 .pt_txt .c_999{color:#999;}
+
+
+/*弹出层三*/
+.point3{width:352px;height:auto;float:left;z-index:9999;background:#e5e5e5;padding:5px 6px 5px 5px;position:fixed;_position:absolute;font-size:12px;}
+.point3 .pt3_box{border:1px solid #bbbbbb;width:350px;height:auto;float:left;background:#fff;}
+.point3 .pt_title{width:340px;height:30px;background:url(../img/point.png) repeat-x 0px 0px;font-size:14px;line-height:30px;padding-left:10px;color:#444;font-weight:bold;float:left;}
+.point3 .pt_title span{float:left;}
+.point3 .pt_title .close{width:17px;height:17px;float:right;margin-top:5px;margin-right:3px;background:url(../img/point.png) no-repeat -130px -56px;text-indent:-9999px;font-size:0px;}
+.point3 .pt_title .close:hover{background:url(../img/point.png) no-repeat -130px -37px;}
+.point3 .pt_ts{width:250px;height:auto;line-height:22px;color:#333;float:left;padding:40px 50px;}
+.point3 .pt_ts div{padding-top:8px;padding-bottom:6px;float:left;}
+.point3 .pt_ts .spa1{background:url(../img/point.png) no-repeat -153px -200px;padding-left:55px;}
+.point3 .pt_ts .spa2{background:url(../img/point.png) no-repeat -165px -298px;padding-left:44px;}
+.point3 .pt_ts .spa3{background:url(../img/point.png) no-repeat -163px -104px;padding-left:48px;padding-right:10px;float:left;}
+.point3 .pt_ts div a{color:#059;text-decoration:underline;}
+.point3 .pt_txt2{width:330px;height:auto;padding:5px 10px;float:left;color:#666;}
+.point3 .pt_txt3{width:310px;height:auto;float:left;border-top:1px solid #e4e4e4;background:#f7f7f7;padding:5px 20px;}
+.point3 .pt_txt3 .submit{width:62px;height:21px;background:url(../img/point.png) no-repeat 0px -37px;border:none;cursor:pointer;float:right;margin-right:10px;display:inline;color:#fff;text-align:center;line-height:21px;}
+.point3 .pt_txt3 .submit:hover{background:url(../img/point.png) no-repeat 0px -71px;text-decoration:none}
+.point3 .pt_txt3 .submit2{width:62px;height:21px;background:url(../img/point.png) no-repeat -64px -37px;border:none;cursor:pointer;float:right;text-align:center;line-height:21px;}
+.point3 .pt_txt3 .submit2:hover{background:url(../img/point.png) no-repeat -64px -71px;}
+
+*html{background-image:url(../img/about:blank);background-attachment:fixed;}/*这个是解决IE6闪动问题*/
+.mark{background-color:#999;z-index: 99; opacity:0;FILTER: alpha(opacity=0); position:absolute; top:0; left:0}
+/*弹出层三结束*/

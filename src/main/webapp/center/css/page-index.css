@@ -1,0 +1,575 @@
+.recommend {
+    float: left;
+    width: 550px;
+    background-color: #FFF;
+    min-height: 595px;
+    overflow: hidden;
+    border-radius: 0 5px 5px 0;
+}
+
+.recommend .hd {
+    height: 34px;
+    line-height: 32px;
+    padding: 0px;
+    color: #555;
+    font-weight: 700;
+}
+
+.recommend .hd a.group-course {
+    float: right;
+    font-weight: 400;
+    padding-right: 13px;
+    color: #555;
+}
+
+.recommend .hd a.group-course:hover {
+    color: #09F;
+}
+
+.recommend .bd {
+    padding: 30px 10px;
+}
+
+.recommend .bd ul:first-child {
+    border-top: 0 none;
+}
+
+.recommend .bd li {
+    border-top: 1px solid #EEE;
+    padding: 19px 0 10px;
+}
+
+.recommend .course-pic {
+    position: relative;
+    margin-right: 14px;
+    float: left;
+    height: 60px;
+    width: 105px;
+    z-index: 1;
+}
+
+.recommend .course-pic .course-typebg,.recommend .course-pic .course-type {
+    position: absolute;
+    background-position: 0 0;
+    left: 5px;
+    top: 5px;
+    z-index: 9;
+    height: 20px;
+    width: 20px;
+    background: url(../img/coursepic-bg-type.png) no-repeat;
+}
+
+.recommend .course-pic .course-type {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    height: 18px;
+    z-index: 10;
+}
+
+.recommend .course-pic .course-typebg {
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale,src="../img/course-typebg.png");
+}
+
+.recommend .course-pic .course {
+    background-position: 3px -37px;
+    top: 6px;
+    _top: 8px;
+    _left: 8px;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale,src="../img/tubiao_course.png");
+}
+
+.recommend .course-pic .threewin {
+    background-position: 3px -20px;
+    _top: 8px;
+    _left: 8px;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale,src="../img/tubiao_three-win.png");
+}
+
+.recommend .course-pic .package {
+    background-position: 2px -53px;
+    _top: 8px;
+    _left: 8px;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale,src="../img/tubiao_package.png");
+}
+
+.recommend .course-pic .presell_package {
+    background-position: 3px -69px;
+    _top: 8px;
+    _left: 8px;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale,src="../img/tubiao_sale.png");
+}
+
+.recommend .course-pic .timelong {
+    float: right;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    _bottom: 10px;
+    z-index: 10;
+}
+
+.recommend .course-pic .timelong .l,.recommend .course-pic .timelong .c,.recommend .course-pic .timelong .r {
+    float: left;
+    height: 16px;
+    line-height: 14px;
+    _line-height: 16px;
+}
+
+.recommend .course-pic .timelong .l,.recommend .course-pic .timelong .r {
+    width: 5px;
+    font-size: 0;
+}
+
+.recommend .course-pic .timelong .l {
+    float: left;
+    background: url(http://stat1.ablesky.cn/statb/images/market/index/index-sprite24.png) no-repeat 0 -605px;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale,src="http://stat1.ablesky.cn/statb/images/market/index/timelong-l.png");
+}
+
+.recommend .course-pic .timelong .c {
+    float: left;
+    background: url(http://stat1.ablesky.cn/statb/images/market/index/index-sprite24.png) repeat-x 0 -576px;
+    color: #FFF;
+    font-size: 10px;
+}
+
+.recommend .course-pic .timelong .r {
+    float: left;
+    background: url(http://stat1.ablesky.cn/statb/images/market/index/index-sprite24.png) no-repeat 0 -634px;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale,src="http://stat1.ablesky.cn/statb/images/market/index/timelong-r.png");
+}
+
+.recommend .course-pic a .hover-pic {
+    display: none;
+    _filter: none;
+}
+
+.recommend .course-pic a:hover .hover-pic,.recommend .course-pic a.course-pic-hover .hover-pic {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 105px;
+    z-index: 9;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #FFF;
+    cursor: pointer;
+    text-shadow: 0 -1px 1px #06C;
+    background: url(http://stat1.ablesky.cn/statb/images/market/index/startlearn-bg.png) no-repeat;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale,src="http://stat1.ablesky.cn/statb/images/market/index/startlearn-bg.png");
+}
+
+.recommend .course-pic a:hover .timelong,.recommend .course-pic a.course-pic-hover .timelong {
+    display: block;
+    background: url(../img/coursepic-bg-type.png) no-repeat;
+    background-position: 0 -87px;
+    height: 20px;
+    width: 20px;
+    font-size: 0;
+    z-index: 10;
+}
+
+.recommend .course-pic a:hover .timelong span,.recommend .course-pic a.course-pic-hover .timelong span {
+    display: none;
+}
+
+.recommend .course-pic a:hover .course-typebg,.recommend .course-pic a.course-pic-hover .course-typebg {
+    display: none;
+}
+
+.recommend .course-pic img {
+    height: 60px;
+    width: 105px;
+}
+
+.recommend .course-pic .round-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 60px;
+    width: 105px;
+    z-index: 2;
+    background: url(http://stat1.ablesky.cn/statb/images/market/index/index-sprite24.png) no-repeat 0 -225px;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale,src="http://stat1.ablesky.cn/statb/images/market/index/round-mask.png");
+}
+
+.recommend .course-info {
+    overflow: hidden;
+    position: relative;
+    width: 370px;
+    _width: 367px;
+    _zoom: 1;
+}
+
+.recommend .course-info h2 {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.recommend .course-info h2 a:hover {
+    color: #036;
+}
+
+.recommend .course-info p {
+    margin-top: 1px;
+    color: #555;
+    line-height: 16px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.recommend .course-info .statics {
+    margin-top: 6px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 10px;
+}
+
+.recommend .course-info .statics a {
+    display: inline-block;
+    display: inline;
+    zoom: 1;
+    height: 14px;
+    width: 14px;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+    cursor: default;
+}
+
+.recommend .course-info .statics strong {
+    line-height: 14px;
+    margin-right: 15px;
+    vertical-align: text-bottom;
+    font-weight: 400;
+}
+
+.recommend .course-info .statics .view-count,.recommend .course-info .statics .video-count,.recommend .course-info .statics .open-count,.recommend .course-info .statics .course-count,.recommend .course-info .statics .course-count {
+    background: url(../img/search-staticicon.png) no-repeat;
+}
+
+.recommend .course-info .statics .view-count {
+    background-position: 0 -2px;
+}
+
+.recommend .course-info .statics .view-count:hover {
+    background-position: 0 -14px;
+}
+
+.recommend .course-info .statics .video-count {
+    background-position: 0 -26px;
+}
+
+.recommend .course-info .statics .video-count:hover {
+    background-position: 0 -40px;
+}
+
+.recommend .course-info .statics .open-count {
+    background-position: 0 -88px;
+}
+
+.recommend .course-info .statics .open-count:hover {
+    background-position: 0 -104px;
+}
+
+.recommend .course-info .statics .course-count {
+    background-position: 0 -56px;
+}
+
+.recommend .course-info .statics .course-count:hover {
+    background-position: 0 -73px;
+}
+
+.recommend .course-info .statics .ico-category {
+    background: url(http://stat1.ablesky.cn/statb/images/market/index/course-count.png) no-repeat 0 center;
+}
+
+.recommend .course-info .owner {
+    position: relative;
+    margin-top: 6px;
+    color: #AAA;
+    height: 20px;
+    line-height: 20px;
+}
+
+.recommend .course-info .owner a,.recommend .course-info .owner span {
+    line-height: 20px;
+}
+
+.recommend .course-info .owner img {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.recommend .course-info .owner .date {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 10px;
+}
+
+.recommend{position:relative;float:left;width:550px;}
+.recommend .rBtit{float:left;width:548px;height:36px;line-height:36px;border:1px solid #dedede;background:#fff;}
+.recommend .rBtit .h02{float:left;padding-left:20px;font:bold 20px/1.8em microsoft yahei}
+.recommend .rBtit .h02 span{color:#f50}
+.recommend .rBtit .rBbtn1,.recommend .rBtit .rBbtn2{position:relative;float:left;width:102px;margin-top:-2px;margin-bottom:-1px;margin-left:10px;display:inline;font:bold 14px/2.8em "";background:url(../img/main.png) 0 0 no-repeat;text-align:center;}
+.recommend .rBtit .rBbtn1{margin-left:15px;}
+.recommend .rBtit .rBbtn2{background:none}
+
+
+/*右列上*/
+.right_diva{width:780px;float:left;margin-right:10px;margin-top:10px;display:inline-block;margin-bottom:10px;}
+.diva_left{width:550px;float:left;color:#166aa1;margin-top:10px;}
+.diva_left dl dt{width:146px;height:125px;float:left; position:relative;margin-bottom:10px;}
+.diva_left dl dt div{width:125px;height:23px;background:#000; text-align:center; line-height:23px; position:absolute; bottom:0px;left:0px;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);opacity:0.6;}
+.diva_left dl dt div a{color:#fefc2f;font-size:12px; text-decoration:underline;}
+.dd_2{float:left;width:404px;}
+.dd_2 h2{color:#166aa1;font-weight:bold;font-size:12px;border-bottom:1px solid #d5e5f1;height:31px; line-height:26px;}
+.touxiang{display:none;}
+.pcdt_xx{width:132px;height:40px;display:inline-block; line-height:40px;}
+.pcdt_xx em{color:#f25500;}
+.pcdt_xxa{width:402px;height:33px;border:1px solid #feda99;color:#f25500;display:inline-block;background:#ffffe9 url(../images/pic_08.gif) no-repeat 6px 5px; line-height:33px; text-indent:40px;}
+.pcdt_xxa em{float:right;}
+.img_table td a{color:#525252;}
+.pcdt_xxa em a{color:#f25500;margin-right:80px;}
+.pcdt_xxb{width:540px;height:21px;background:#ebf4fd;display:inline-block; padding-left:10px;}
+.pcdt_xxb span{display:inline-block;width:170px; line-height:21px;}
+.pcdt_xxb span a{color:#f25500;}
+.diva_right{width:208px;height:164px;border:1px solid #e5e5e5;float:left;margin-left:20px;_margin-left:5px;display:inline;}
+.diva_right_a{width:190px;height:50px;color:#525252;padding-top:8px;border-bottom:1px solid #eaeaea;}
+.diva_right_a em{float:right;}
+.diva_right_a em a{color:#f25500;}
+.diva_right_a span{display:block; text-indent:5px;line-height:24px;}
+.diva_right_a var{color:#f25500;}
+.daka{display:block;height:50px;padding-top:10px;text-align:center;}
+.daka_xx{display:block;height:26px; text-align:center;color:#525252;}
+.daka_xx span{width:90px;display:inline-block;}
+.daka_xx span em{color:#f25500;}
+.daka_xz{display:block; text-align:center;color:#979797;}
+.banner{width:790px;margin-bottom:10px; overflow:hidden;}
+.ctt_content{display:block;clear:both;}
+.ctt_left{width:580px;float:left;}
+.ctt_left table tr td a,.ctt_left ul li a{color:#166aa1; text-decoration:none;}
+.ctt_left table tr td a:hover,.ctt_left ul li a:hover{text-decoration:underline;}
+
+section {
+    position: relative;
+    padding-top: 20px;
+}
+
+section .user-head {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding: 0 10px;
+}
+
+section .user-head img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #CCC;
+}
+
+ section .dynamic {
+    float: left;
+    width: 450px;
+}
+ section .dynamic .user-action {
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+ section .dynamic .user-action a {
+    margin-right: 5px;
+    white-space: nowrap;
+}
+section .dynamic .content {
+    padding: 10px;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #DEDEDE;
+}
+ section.course .dynamic .content {
+    width: 430px;
+}
+ section.groupbuy .dynamic .content,.sns .main section.status .dynamic .content,.sns .main section.diary .dynamic .content {
+    width: 450px;
+}
+section.buddy .dynamic .content {
+    width: 450px;
+    padding: 0;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+section.course .content .course-title {
+    width: 450px;
+    white-space: wrap;
+    word-wrap: break-word;
+}
+
+ section.course .content .course-title a {
+    color: #555;
+    font-weight: 700;
+}
+
+ section.course .content .course-title a:hover {
+    color: #09F;
+}
+
+ section.course .content .course-desc {
+    margin: 6px 0 8px;
+}
+
+section.course .content .course-triviality {
+    line-height: 1em;
+    height: 1em;
+    color: #AAA;
+    margin-bottom: 10px;
+}
+section.course .content .course-triviality span {
+    display: inline-block;
+    line-height: 15px;
+    margin-right: 30px;
+}
+
+section.course .content .course-triviality .slide-up {
+    display: none;
+    padding-right: 25px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+ section.course .content .course-preview .course-img {
+    float: left;
+    margin-right: 75px;
+    position: relative;
+    display: block;
+    width: 105px;
+    height: 60px;
+    border-radius: 3px;
+}
+
+section.course .content .course-preview .course-img img {
+    display: block;
+    width: 105px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #CCC;
+}
+
+section.course .content .course-preview .course-nopreview {
+    display: none;
+    float: left;
+    height: 22px;
+    line-height: 20px;
+    margin-top: 18px;
+    padding-left: 30px;
+}
+
+section.course .content .course-preview .play-btn {
+    position: absolute;
+    display: block;
+    width: 28px;
+    height: 28px;
+    top: 50%;
+    left: 50%;
+    margin-left: -14px;
+    margin-top: -13px;
+    cursor: pointer;
+    background: url(../img/play_btn.png) no-repeat;
+    _background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=image,src="../img/play_btn.png");
+}
+section.course .content .course-video {
+    display: none;
+    width: 400px;
+    height: 310px;
+}
+
+ section.course .content .course-loading {
+    background: url(../img/video_loading.gif) no-repeat;
+}
+
+section.groupbuy .content .groupbuy-photo {
+    display: block;
+    float: left;
+    width: 225px;
+    height: 158px;
+    margin-right: 10px;
+    background-color: #CCC;
+}
+
+section.groupbuy .content .groupbuy-intro {
+    float: left;
+    width: 185px;
+    word-wrap: break-word;
+}
+
+ section.groupbuy .content .groupbuy-intro .course-publisher {
+    color: #F33;
+    font-size: 14px;
+}
+section.groupbuy .content .groupbuy-intro .orginal-price {
+    text-decoration: line-through;
+}
+
+section.groupbuy .content .groupbuy-intro .seperator {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+section.groupbuy .content .groupbuy-intro .left-times {
+    color: #7B4;
+}
+
+section.groupbuy .content .groupbuy-intro .buy {
+    margin-top: 5px;
+}
+
+section.groupbuy .content .groupbuy-intro .buy .cur-price,.sns .main section.groupbuy .content .groupbuy-intro .buy a {
+    float: left;
+    display: block;
+}
+
+section.groupbuy .content .groupbuy-intro .cur-price {
+    line-height: 30px;
+    margin-right: 20px;
+    color: #F60;
+}
+
+section.groupbuy .content .groupbuy-intro .cur-price .num {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+section.status .content {
+    word-wrap: break-word;
+}
+
+section .pub-date {
+    height: 20px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+section.buddy .pub-date {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 0;
+}
+

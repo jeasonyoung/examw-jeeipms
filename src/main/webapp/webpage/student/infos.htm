@@ -1,0 +1,53 @@
+{dede:include file='header.htm'/}
+<div class="wrapper">
+<div class="mainBox">
+<div class="mainBor">
+  <div class="west">
+  	{dede:include file='side_icon.htm'/}
+  </div>
+  <div class="east">
+    <dl class="border">
+      <dt class="caption"><strong>基本资料</strong></dt>
+      <dd class="body pB10">
+        <table width="700" align="center" class="tList">
+          <tr>
+            <td>昵称：</td>
+            <td><?php echo $row['uname']; ?></td>
+          </tr>
+          <tr>
+            <td width="101">性别： </td>
+            <td width="593"><?php echo $row['sex']; ?></td>
+          </tr>
+          <tr>
+            <td>目前所在地：</td>
+            <td> 省份：
+              <?php
+			$places = GetEnumsTypes($row['place']);
+			echo ( isset($em_nativeplaces[$places['top']]) ?  $em_nativeplaces[$places['top']] : '');
+		  ?>
+              &nbsp; 城市：
+              <?php
+		  echo ( isset($em_nativeplaces[$places['son']]) ?  $em_nativeplaces[$places['son']] : '');
+		  ?></td>
+          </tr>
+          <tr>
+            <td>家乡所在地：</td>
+            <td> 省份：
+              <?php
+			$places = GetEnumsTypes($row['oldplace']);
+			echo ( isset($em_nativeplaces[$places['top']]) ?  $em_nativeplaces[$places['top']] : '');
+		  ?>
+              &nbsp; 城市：
+              <?php
+		  echo ( isset($em_nativeplaces[$places['son']]) ?  $em_nativeplaces[$places['son']] : '');
+		  ?></td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+  </div>
+</div>
+</div></div>
+{dede:include file='footer.htm'/}
+</body>
+</html>

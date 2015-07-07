@@ -1,0 +1,30 @@
+/*分页*/
+.pagination{display:inline-block;height:auto;padding:15px 0;text-align: center;font-size: 12px;}
+.pagination span{float:left;padding:2px 8px;margin-right:5px;display:inline;height:15px;text-align:center;color:#999;}
+.pagination .current {background: #39a0ef;color:#FFFFFF;border:1px solid #39a0ef;cursor:pointer;}
+.pagination .prev, .pagination .next{border-left:1px solid #e1e3ef;border-right:1px solid #bfc7d8;border-bottom:1px solid #bfc7d8;border-top:1px solid #e1e3ef;cursor:pointer;color:#333;}
+.pagination .prev:hover, .pagination .next:hover{border:1px solid #39a0ef;}
+.pagination .goto_input {width:24px;height:16px;line-height:16px;padding:0px 4px;}
+.pagination A {border:1px solid #d6d6d6;text-decoration: none;line-height:21px;float:left;padding:0px 6px;}
+.pagination A:hover {border:1px solid #39a0ef;}
+
+/*评分*/
+#xzw_starSys {height:28px;width:auto;float:left;overflow:hidden;}
+#xzw_starBox {position:relative;width:130px; float:left;}
+#xzw_starSys .description{float:left; color:#f50;margin:0px;padding:0px;padding-left:5px;font: bold 14px/2.0 simsun}
+#xzw_starSys .star{ height:18px;width:130px;position:relative;background:url(main.png) -168px -66px no-repeat;cursor:pointer;float:left;margin-top:3px;}
+#xzw_starSys .star li { float:left; padding:0px; margin:0px;}
+#xzw_starSys .star li a { display:block;width:26px; height:18px; overflow:hidden; text-indent:-9999px; position:absolute; z-index:5;  }
+#xzw_starSys .star li a:hover  {background:url(main.png) -168px -86px ;z-index:3;left:0; }
+#xzw_starSys .star a.one-star  {left:0; }
+#xzw_starSys .star a.one-star:hover  {width:26px;}
+#xzw_starSys .star a.two-stars  {left:26px; }
+#xzw_starSys .star a.two-stars:hover  {width:52px;}
+#xzw_starSys .star a.three-stars  {left:52px; }
+#xzw_starSys .star a.three-stars:hover  {width:78px;}
+#xzw_starSys .star a.four-stars  {left:78px; }
+#xzw_starSys .star a.four-stars:hover  {width:104px;}
+#xzw_starSys .star a.five-stars  {left:104px; }
+#xzw_starSys .star a.five-stars:hover {width:130px;}
+#xzw_starSys .current-rating {background:url(main.png) no-repeat scroll  -168px -86px transparent; position: absolute;height:18px; z-index: 1;top:0; left:0;}
+#xzw_starSys .acurrent-rating {background:url(main.png) no-repeat scroll -168px -66px transparent; position: absolute;height:18px; z-index: 1;top:0; left:0;}

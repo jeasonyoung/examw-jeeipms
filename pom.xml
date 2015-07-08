@@ -10,7 +10,7 @@
  
   <!--定义参数变量-->
   <properties>
-  	<java.version>1.7</java.version>
+  	<java.version>1.8</java.version>
     <encoding>UTF-8</encoding>
     
     <spring.version>3.1.1.RELEASE</spring.version>
@@ -18,6 +18,9 @@
     
     <hibernate.version>4.2.3.Final</hibernate.version>
     <ehcache.version>2.6.9</ehcache.version>
+    
+    <mysql-connector.version>5.1.26</mysql-connector.version>
+    <druid.version>1.0.14</druid.version>
     
     <aspectjweaver.version>1.6.9</aspectjweaver.version>
     
@@ -57,8 +60,8 @@
   		<!-- serlvert -->
   		<dependency>
   			<groupId>javax.servlet</groupId>
-		    <artifactId>servlet-api</artifactId>
-        	<version>2.5</version>
+		    <artifactId>javax.servlet-api</artifactId>
+        	<version>3.1.0</version>
 		    <scope>provided</scope>
   		</dependency>
   		<dependency>
@@ -66,6 +69,13 @@
 		    <artifactId>jsp-api</artifactId>
         	<version>2.0</version>
 		    <scope>provided</scope>
+  		</dependency>
+  		
+  		<!-- jstl -->
+  		<dependency>
+  			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
   		</dependency>
   		
   		<!-- Spring -->
@@ -82,6 +92,11 @@
   		<dependency>
   			<groupId>org.springframework</groupId>
   			<artifactId>spring-jdbc</artifactId>
+  			<version>${spring.version}</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-orm</artifactId>
   			<version>${spring.version}</version>
   		</dependency>
   		<dependency>
@@ -137,6 +152,20 @@
   			<artifactId>ehcache-core</artifactId>
   			<version>${ehcache.version}</version>
   		</dependency>
+  		
+  		<!-- mysql -->
+  		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql-connector.version}</version>
+		</dependency>
+  		
+  		<!--connection pool-->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>${druid.version}</version>
+		</dependency>
   		
   		<!-- freemaker -->
   		<dependency>
@@ -284,37 +313,27 @@
   			<groupId>com.ckeditor</groupId>
   			<artifactId>ckeditor-java-core</artifactId>
   			<version>3.5.3</version>
-  			<scope>system</scope>
-  			<systemPath>${project.basedir}/libs/ckeditor-java-core-3.5.3.jar</systemPath>
   		</dependency>
   		<!-- CKFinder -->
   		<dependency>
   			<groupId>com.ckeditor</groupId>
   			<artifactId>CKFinder</artifactId>
   			<version>2.4</version>
-  			<scope>system</scope>
-  			<systemPath>${project.basedir}/libs/CKFinder-2.4.jar</systemPath>
   		</dependency>
   		<dependency>
   			<groupId>com.ckeditor</groupId>
   			<artifactId>CKFinderPlugin-FileEditor</artifactId>
   			<version>2.4</version>
-  			<scope>system</scope>
-  			<systemPath>${project.basedir}/libs/CKFinderPlugin-FileEditor-2.4.jar</systemPath>
   		</dependency>
   		<dependency>
   			<groupId>com.ckeditor</groupId>
   			<artifactId>CKFinderPlugin-ImageResize</artifactId>
   			<version>2.4</version>
-  			<scope>system</scope>
-  			<systemPath>${project.basedir}/libs/CKFinderPlugin-ImageResize-2.4.jar</systemPath>
   		</dependency>
   		<dependency>
   			<groupId>com.ckeditor</groupId>
   			<artifactId>CKFinderPlugin-Watermark</artifactId>
   			<version>2.4</version>
-  			<scope>system</scope>
-  			<systemPath>${project.basedir}/libs/CKFinderPlugin-Watermark-2.4.jar</systemPath>
   		</dependency>
   		
   		<!-- 日志 -->

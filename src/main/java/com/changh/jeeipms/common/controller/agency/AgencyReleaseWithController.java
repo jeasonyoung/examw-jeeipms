@@ -72,7 +72,7 @@ public class AgencyReleaseWithController {
 			j.setSuccess(false);
 			return j;
 		}else{
-			Class c = this.getClass(); 
+			Class<?> c = this.getClass(); 
 			Method m1 = c.getDeclaredMethod(menu.getEnname(),String.class,String.class,HttpServletRequest.class); 
 			return (AjaxJson) m1.invoke(this, agencyId,agency.getSecondDomain(),request);		
 		}	
